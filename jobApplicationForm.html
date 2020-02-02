@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Job Application</title>
+</head>
+<body>
+
+<h2>Job Application</h2>
+
+<form action="https://github.com/mclooner-1632778/mclooner-1632778.github.io/blob/master/formAnswers.php" method="post">
+
+	<fieldset>
+		<legend>Personal Information</legend>
+		<div class="field">
+			<label>Full Name:</label> 
+			<input type="text" name="fullname">
+		</div>
+		<div class="field">
+			<label>Gender</label> 
+			<select name="state">
+				<option value="" selected="true">Choose an option</option>
+				<option value="M">Male</option>
+				<option value="F">Female</option>
+				<option value="NB">I wish not to answer</option>
+			</select>
+		</div>
+		<div class="field">
+			<label>Date of Birth:</label> 
+			<input type="date" name="birthday">
+		</div>
+
+		<label>Address:</label> 
+		<div class="field">
+			<label>Street:</label> 
+			<input type="text" name="street">
+		</div>
+		<div class="field">
+			<label>City:</label> 
+			<input type="text" name="city">
+		</div>
+		<div class="field">
+			<label>State:</label> 
+			<input type="text" name="state" maxlength="2">
+		</div>
+		<div class="field">
+			<label>Zip Code:</label> 
+			<input type="number" name="zip">
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend>Positions and Availability</legend>
+		<div class="field">
+			<label>What type of position interests you? (check all that apply)</label>
+			<input type="checkbox" name="position_in" value="intern"> Internship
+			<input type="checkbox" name="position_co" value="coop"> Co-Op
+			<input type="checkbox" name="position_pt" value="parttime" disabled> Part Time
+			<input type="checkbox" name="position_ft" value="fulltime"> Full Time
+		</div>
+		<div class="field">
+			<label>What fields interest you? (check all that apply)</label>
+			<ul>
+				<li><input type="checkbox" name="field_sd" value="developer">Software Development</li>
+				<li><input type="checkbox" name="field_pm" value="manager">Project Management</li>
+				<li><input type="checkbox" name="field_hr" value="hrrep">Human Resources</li>
+				<li><input type="checkbox" name="field_en" value="engineer">System Engineering</li>
+			</ul>
+		</div>
+		<div class="field">
+			<label>Please rate your proficiency in the following areas:</label> </br>
+			Data Analysis <input type="range" name="skills_da" min="0" max="10">  </br>
+			Programming <input type="range" name="skills_pr" min="0" max="10"> </br>
+			Organization <input type="range" name="skills_or" min="0" max="10"> </br>
+			Leadership<input type="range" name="skills_le" min="0" max="10">
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend>Availability</legend>
+		<div class="field">
+			<label>Are you a citizen of the United States?</label> 
+			<input type="radio" name="citizen" value="yes">Yes
+			<input type="radio" name="citizen" value="no">No
+		</div>
+		<div class="field">
+			<label>Have you ever been employed by the US Military Forces?</label> 
+			<input type="radio" name="military" value="no" checked>No
+			<input type="radio" name="military" value="former">Formerly
+			<input type="radio" name="military" value="current">Currently
+			<input type="radio" name="military" value="none">I do not wish to answer
+		</div>
+
+		<div class="field">
+			<label>Hours available</label>
+			<table>
+				<tr>
+					<td></td>
+					<th>Sun</th>
+					<th>Mon</th>
+					<th>Tue</th>
+					<th>Wed</th>
+					<th>Thu</th>
+					<th>Fri</th>
+					<th>Sat</th>
+				</tr>
+				<tr>
+					<th>From</th>
+					<td><input type="time" size="5" name="su_from"></td>
+					<td><input type="time" size="5" name="mo_from"></td>
+					<td><input type="time" size="5" name="tu_from"></td>
+					<td><input type="time" size="5" name="we_from"></td>
+					<td><input type="time" size="5" name="th_from"></td>
+					<td><input type="time" size="5" name="fr_from"></td>
+					<td><input type="time" size="5" name="sa_from"></td>
+				</tr>
+				<tr>
+					<th>Until</th>
+					<td><input type="time" size="5" name="su_until"></td>
+					<td><input type="time" size="5" name="mo_until"></td>
+					<td><input type="time" size="5" name="tu_until"></td>
+					<td><input type="time" size="5" name="we_until"></td>
+					<td><input type="time" size="5" name="th_until"></td>
+					<td><input type="time" size="5" name="fr_until"></td>
+					<td><input type="time" size="5" name="sa_until"></td>
+				</tr>
+			</table>
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend>Personal Statement</legend>
+		<div class="field">
+			<label>What are you strengths and weaknesses?</label><br>
+			<textarea name="strengthWeakness" rows="3" cols="60"></textarea>
+		</div>
+		<div class="field">
+			<label>What made you interested in this company?</label><br>
+			<textarea name="companyInterest" rows="5" cols="60"></textarea>
+		</div>
+		<div class="field">
+			<label>What previous experience do you have in this field?</label><br>
+			<textarea name="experience" rows="7" cols="60"></textarea>
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend>Account</legend>
+		<div class="field">
+			<label>Username:</label> 
+			<input type="text" name="username" placeholder="ex: Gandalf" required>
+		</div>
+		<div class="field">
+			<label>Password:</label> 
+			<input type="password" name="password">
+		</div>
+		<div class="field">
+			<label>Repeat password:</label> 
+			<input type="password" name="password_r">
+		</div>
+		<div class="field">
+			<label>Contact email:</label>
+			<input type="email" name="email" placeholder="ex: yerawizard@uw.edu">
+	</fieldset>
+
+	<fieldset>
+		<legend>Extra Files</legend>
+		<div class="field">
+			<label>Select your resume for upload:</label>
+			<input type="file" name="resume">
+		</div>
+		<div class="field">
+			<label>Select a cover letter for upload:</label>
+			<input type="file" name="cover letter">
+		</div>
+	</fieldset>
+	</br>
+	<input type="submit" value="Submit Form">
+	<input type="reset" value ="Reset Form">
+
+</form>
+</body>
+</html>
