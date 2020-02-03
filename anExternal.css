@@ -1,0 +1,61 @@
+body{
+    background-image: url('piggo.jpg');
+  
+}
+
+P{
+    color: white;
+    font-family: "Arial";
+    font-weight: bold;
+
+}
+
+h1{
+    color: #FFBC00;
+    font-size: 40px;
+    font-family: "Passion One";
+    margin-bottom: 0px;
+
+}
+
+li{
+
+}
+
+
+#FloaterL{
+  	margin: 0;
+  	padding: 0;
+  	list-style: none;
+}
+
+#FloaterL img{
+        float: left;
+        width: 250px;
+        height: 150px;
+        margin: 1px;
+}
+
+#FloaterR{
+   	margin: 0;
+   	padding: 0;
+  	list-style: none;
+}
+
+#FloaterR img{
+        float: right;
+        width: 150px;
+        height: 250px;
+        margin: 1px;
+}
+
+#Rounded{
+	margin: 0;
+  	padding: 0;
+  	list-style: none;
+}
+
+#Rounded video{
+	border-radius: 450px;
+  	padding: 20px;
+}
