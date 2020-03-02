@@ -283,7 +283,7 @@ hr {
 	{
 		overflow: hidden;
 		height: 600px;
-		background: url(images/smush.jpg) no-repeat center;
+		background: url(smush.jpg) no-repeat center;
 		background-size: cover;
 	}
 
@@ -291,7 +291,7 @@ hr {
 	{
 		overflow: hidden;
 		height: 600px;
-		background: url(images/tabbs.jpg) no-repeat center;
+		background: url(tabbs.jpg) no-repeat center;
 		background-size: cover;
 	}
 
@@ -299,7 +299,7 @@ hr {
 	{
 		overflow: hidden;
 		height: 600px;
-		background: url(images/bleck.jpg) no-repeat center;
+		background: url(bleck.jpg) no-repeat center;
 		background-size: cover;
 	}
 
@@ -307,7 +307,7 @@ hr {
 	{
 		overflow: hidden;
 		height: 600px;
-		background: url(images/oranges.jpg) no-repeat center;
+		background: url(oranges.jpg) no-repeat center;
 		background-size: cover;
 	}
 	
