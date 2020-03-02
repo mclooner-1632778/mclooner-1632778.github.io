@@ -283,7 +283,7 @@ hr {
 	{
 		overflow: hidden;
 		height: 600px;
-		background: url(images/smush.jpg) no-repeat center;
+		background: url(template/images/smush.jpg) no-repeat center;
 		background-size: cover;
 	}
 
